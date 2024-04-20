@@ -71,3 +71,37 @@ nav img {
   width: auto;
   margin-left: 50px;
 }
+
+/* ---------------------------------------------------> Header Section */
+header {
+  height: 900px;
+  background-image: url("../images/landing.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-container {
+  margin: auto 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  color: var(--clr-white);
+  font-weight: 100;
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+header p {
+  color: var(--clr-white);
+  font-size: 2rem;
+  text-align: center;
+}
